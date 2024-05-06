@@ -24,7 +24,7 @@ class Events {
         })
     }
     commandExecution(message,channel,session)  {
-        if (message.startsWith("!")) {
+        if (message.startsWith("!")) { 
             for (let command in commandsJson) {
                 if (message.toLowerCase() == command) {
                    session.action(channel,commandsJson[command])

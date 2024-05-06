@@ -15,7 +15,7 @@ class  AuthToken {
         client = tmi.Client({
             identity: {
                 username: nameBot,
-                password: token, 
+                password: token,
             } ,
         
             channels: [listChannel]
